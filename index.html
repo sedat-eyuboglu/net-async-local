@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const limit = 30;
+        for(let i = 0; i < limit; i++) {
+            let url = "http://localhost:5021/Context/Context/"+i;
+            document.write("<div><a id='link"+i+"' target='_blank' href='"+url+"'>"+url+"</a></div>");
+        }
+
+        function start() {
+            for(let i = 0; i < limit; i++) {
+                document.getElementById("link"+i).click();
+            }
+        }
+    </script>
+    <button onclick="start()">Start</button>
+</body>
+</html>
