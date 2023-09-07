@@ -4,4 +4,5 @@ See how we created a context object and set it a name. Althoug `scopeNameHolder`
 
 # How to Run This Sample
 - Run this Asp.Net web api project
-- Open `index.html` in your browser. It will open 30 new tab and you will see the same `ID` as you pass in the URL.
+- Open `index.html` in your browser. 
+- Press *start* button. It will open 30 new tab and you will see the same `ID` as you pass in the URL.
